@@ -98,52 +98,52 @@ rv from openFile /l r is 5 correct
 rv from writeFile /l is 7 correct 
 rv from closeFile /l is 0 correct
 
-file edge test and rw accuraty on fs2
+file edge test and rw accuracy on fs2
 rv from createFile /z is 0 correct 
 rv from openFile /z r is 6 correct 
 rv from writeFile /z is 600 correct 
 rv from writeFile /z is 600 correct 
 rv from seekFile is 0 correct 
 rv from writeFile /z is 64 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from writeFile /z is 4 correct 
 rv from appendFile is 16 correct 
 rv from appendFile is -3 correct exceeds max file size
-rv from seekFile is 0
+rv from seekFile is 0 correct 
 rv from readFile /z is 64 correct 
 Data read is 
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbss

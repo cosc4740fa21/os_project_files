@@ -245,7 +245,7 @@ int main()
   r = c2->myFS->closeFile(f2);
   cout << "rv from closeFile /l is " << r << (r==0 ? " correct":" fail")<<endl;
 
-  cout <<"\nfile edge test and rw accuraty on fs2\n";  //fill up a file almost
+  cout <<"\nfile edge test and rw accuracy on fs2\n";  //fill up a file almost
   r = c2->myFS->createFile(const_cast<char *>("/z"), 2);
   cout << "rv from createFile /z is " << r <<(r==0 ? " correct ": " fail") <<endl;
   f2 = c2->myFS->openFile(const_cast<char *>("/z"), 2, 'm', -1);
@@ -262,7 +262,7 @@ int main()
 
   for (i = 62; i<1152; i+=64) {
     r = c2->myFS->seekFile(f2, i, 1);
-    cout << "rv from seekFile is " << r << endl;
+    cout << "rv from seekFile is " << r <<(r==0 ? " correct ": " fail") << endl;
     r = c2->myFS->writeFile(f2, buf1, 4);
     cout << "rv from writeFile /z is " << r << (r==4 ? " correct ": " fail") <<endl;
   }
@@ -273,7 +273,7 @@ int main()
   cout << "rv from appendFile is " << r << (r==-3 ? " correct exceeds max file size": " fail") <<endl;
   
   r = c2->myFS->seekFile(f2, 0, -1);
-  cout << "rv from seekFile is " << r << endl;
+  cout << "rv from seekFile is " << r <<(r==0 ? " correct ": " fail") << endl;
 
   for (int j =0; j<19; j++) {
     r = c2->myFS->readFile(f2, rbuf2, 64);
